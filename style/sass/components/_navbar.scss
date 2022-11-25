@@ -1,0 +1,132 @@
+@use "../utilities/variables" as *;
+@use "../utilities/breakpoints" as *;
+@use "../utilities/placeholders" as *;
+
+
+.smScreenNavbar {
+  padding         : 1.2rem;
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  position        : fixed;
+  width           : 100%;
+  left            : 0;
+  top             : 0;
+  background-color: rgba($body-background-color, .5);
+  z-index         : 5;
+  backdrop-filter : blur(10px);
+  
+  @media (min-width: 800px) {
+    display: none;
+  }
+  
+  .smScreenNavbarLogo {
+    width: 3rem;
+  }
+  
+  .navbarHamburgerIcon {
+
+    &:hover {
+      cursor: pointer;
+    }
+    
+    .hamburgerIconTopBar, .hamburgerIconMiddleBar, .hamburgerIconBottomBar {
+      transition: .4s all cubic-bezier(0, 0.04, 0.64, 1.52);
+      
+    }
+    
+    span {
+      width           : 3rem;
+      height          : .3rem;
+      background-color: $gray-color;
+      display         : block;
+      border-radius   : 6rem;
+      
+      &:NOT(:first-of-type, :last-of-type) {
+        margin: .7rem 0;
+      }
+    }
+  }
+}
+
+  .lgScreenLogo {
+    display: none;
+    
+    @media (min-width:800px) {
+      width  : 3rem;
+      margin : 2.5rem auto .5rem;
+      display: block;
+    }
+  }
+  
+  .navbarMenu {
+    background-color: rgba($body-background-color, .5);
+    backdrop-filter : blur(10px) grayscale(10%);
+    z-index         : 10;
+    position        : fixed;
+    width           : 100%;
+    height          : calc(100% - 86.42px);
+    right           : -100%;
+    top             : 86.42px;
+    display         : grid;
+    place-items     : center;
+    z-index         : 52;
+    transition      : .7s all cubic-bezier(0.77, 0, 0.175, 1);
+    
+    @media (min-width: 800px) {
+      position  : sticky;
+      top       : 0;
+      transition: none;
+  }
+
+  ul {
+    list-style: none;
+    text-align: left;
+    padding   : .5rem 0;
+
+    @media (min-width: 800px) {
+      display: flex;
+      gap    : 1.5rem;
+      padding: 1.5rem 0;
+    }
+
+    li {
+      margin: 2rem 0;
+
+      @media (min-width: 500px) {
+        margin: 2.5rem 0;
+      }
+      
+      @media (min-width: 800px) {
+        margin: 0;
+      }
+      
+      a {
+        font-size      : 6vw;
+        text-decoration: none;
+        letter-spacing : .1rem;
+        font-weight    : 500;
+        color          : rgba($white-color, .5);
+        text-transform : uppercase;
+        font-family    : 'Roboto Mono';
+        transition     : .5s color cubic-bezier(0, 0.04, 0.64, 1.52);
+
+        @media (min-width: 500px) {
+          font-size: 2rem;
+        }
+        
+        @media (min-width: 800px) {
+          font-size     : 1rem;
+          font-weight   : 500;
+          text-transform: capitalize;
+          color         : $text-content-color;
+          letter-spacing: .03rem;
+        }
+        
+        &:hover {
+          color: $primary-color !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,225 @@
+.themeToggleButtonsIcons {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" -25, "opsz" 40;
+}
+
+.navbarhamburgerTopBarActive {
+  -webkit-transform: rotate(45deg) translate(10px, 12px);
+          transform: rotate(45deg) translate(10px, 12px);
+}
+
+.navbarHamburgerMiddleBarActive {
+  opacity: 0;
+}
+
+.navbarHamburgerBottomBarActive {
+  -webkit-transform: rotate(-45deg) translate(10px, -12px);
+          transform: rotate(-45deg) translate(10px, -12px);
+}
+
+.navbarMenuActive {
+  right: 0 !important;
+  z-index: 100 !important;
+}
+
+.whiteThemeBody {
+  background-color: #E4E4E4 !important;
+}
+
+.lightThemeNavbar {
+  background-color: rgba(228, 228, 228, 0.5) !important;
+}
+
+.lightHamburgerIcon {
+  background-color: #8c8c8c !important;
+}
+
+.lightNavbarMenu {
+  background-color: rgba(228, 228, 228, 0.5) !important;
+}
+
+.lightNavbarMenuLinks {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.lightGreetingAndSubtitle {
+  color: rgba(140, 140, 140, 0.7) !important;
+}
+
+.lightDeveloper {
+  color: #8c8c8c !important;
+}
+
+.lightPageButtons {
+  background-color: #C9C9C9 !important;
+  color: #8c8c8c !important;
+}
+
+.lightPageTitle {
+  background-color: #E4E4E4 !important;
+  color: #8c8c8c !important;
+}
+
+.lightPageTextContent {
+  color: #8c8c8c !important;
+}
+
+.lightSkillListName {
+  background-color: #C9C9C9 !important;
+  color: #8c8c8c !important;
+}
+
+.lightProjectTextContentTitle {
+  color: #5D5D5D !important;
+}
+
+.lightProjectTextContentParagraph {
+  color: #8c8c8c !important;
+}
+
+.lightFormLabels {
+  background-color: #E4E4E4 !important;
+}
+
+.lightHomePageMouseScroller {
+  background-color: #8c8c8c !important;
+}
+
+.lightHomePageGlass {
+  border-left: 1px solid rgba(93, 93, 93, 0.2) !important;
+}
+
+.lightFormInput {
+  border: 1px solid #8c8c8c !important;
+}
+
+.greetingAndNameArrow {
+  color: #8c8c8c !important;
+}
+
+.lightThemeToggleButton {
+  cursor: default !important;
+}
+
+.darkThemeToggleButton {
+  cursor: pointer !important;
+}
+
+@-webkit-keyframes mouseScrolling {
+  0% {
+    top: 4px;
+  }
+  100% {
+    top: 26px;
+  }
+}
+
+@keyframes mouseScrolling {
+  0% {
+    top: 4px;
+  }
+  100% {
+    top: 26px;
+  }
+}
+@-webkit-keyframes stampLogoRotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes stampLogoRotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+*::before, *, *::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 975px;
+  height: 100vh;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #151515;
+}
+body svg {
+  width: 7rem;
+  stroke-width: 20;
+  stroke-dasharray: 6605;
+  stroke-dashoffset: 0;
+  fill: transparent;
+  stroke: #16A086;
+  -webkit-animation: loadingLogo 6s linear 0s 1 normal forwards;
+          animation: loadingLogo 6s linear 0s 1 normal forwards;
+}
+@-webkit-keyframes loadingLogo {
+  0% {
+    stroke-dasharray: 6605;
+    stroke-dashoffset: 6605;
+  }
+  80% {
+    fill: transparent;
+    stroke-dasharray: 6605;
+    stroke-dashoffset: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    stroke: #16A086;
+    opacity: 1;
+  }
+  100% {
+    fill: #16A086;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    opacity: 0;
+  }
+}
+@keyframes loadingLogo {
+  0% {
+    stroke-dasharray: 6605;
+    stroke-dashoffset: 6605;
+  }
+  80% {
+    fill: transparent;
+    stroke-dasharray: 6605;
+    stroke-dashoffset: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    stroke: #16A086;
+    opacity: 1;
+  }
+  100% {
+    fill: #16A086;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    opacity: 0;
+  }
+}

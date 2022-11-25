@@ -1,0 +1,81 @@
+// Import Utilities
+@use "sass/utilities/variables" as *;
+@use "sass/utilities/placeholders" as *;
+@use "sass/utilities/breakpoints" as *;
+@use "sass/utilities/functions" as *;
+@use "sass/utilities/mixins" as *;
+
+// Import Base
+@use "sass/base/normalize" as *;
+@use "sass/base/typography" as *;
+
+// Import Sections
+@use "sass/sections/home" as *;
+@use "sass/sections/about" as *;
+@use "sass/sections/contact" as *;
+@use "sass/sections/skills" as *;
+@use "sass/sections/projects" as *;
+@use "sass/sections/footer" as *;
+
+// Import Components
+@use "sass/components/animations" as *;
+@use "sass/components/buttons" as *;
+@use "sass/components/forms" as *;
+@use "sass/components/navbar" as *;
+
+*::before, *, *::after {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $button-background-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: rgba($primary-color, .8);
+  }
+}
+
+::selection {
+  background-color: transparent;
+}
+
+.container {
+  width    : 90%;
+  max-width: 975px;
+  margin   : auto;
+}
+
+body {
+  font-family     : 'Poppins';
+  width           : 100%;
+  background-color: $body-background-color;
+  cursor          : default;
+  position        : relative;
+
+  .mouseCircleEffect {
+    width           : .8rem;
+    aspect-ratio    : 1;
+    background-color: $primary-color;
+    position        : fixed;
+    transform       : translate(-50%, -50%);
+    border-radius   : 100%;
+    z-index         : 105;
+    transition      : .3s all linear;
+    pointer-events  : none;
+    display: none;
+
+    @media (min-width: 500px) {
+      display: block;
+    }
+  }
+}

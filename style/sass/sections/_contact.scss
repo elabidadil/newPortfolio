@@ -1,0 +1,150 @@
+@use "../utilities/variables" as *;
+@use "../utilities/breakpoints" as *;
+@use "../utilities/placeholders" as *;
+@use "../base/normalize" as *;
+@use "../base/typography" as *;
+
+
+.contactMePage {
+  height  : 100vh;
+  overflow: hidden;
+
+  @media (min-width: 1100px) {
+    height        : auto;
+    padding-bottom: 10rem;
+  }
+
+  .container {
+    form {
+      margin   : 0 auto;
+      max-width: 35rem;
+
+      input {
+        width           : 100%;
+        height          : 45px;
+        padding         : .8rem 0;
+        border          : 1px solid $gray-color;
+        border-radius   : .2rem;
+        outline         : none;
+        background-color: transparent;
+        box-sizing      : border-box;
+        font-family     : 'Roboto Mono';
+
+        &:focus {
+          color         : $gray-color;
+          padding-left  : 1rem;
+        }
+
+        &:not(:placeholder-shown) {
+          letter-spacing: .1rem;
+          padding-left  : 1rem;
+          width         : 100%;
+          color         : $gray-color;
+          font-size     : 1rem;
+        }
+
+        &[name="fullname"]:focus ~ [for="fullname"],
+        &[name="fullname"]:not(:placeholder-shown) ~ [for="fullname"] {
+          top: -3.35rem;
+        }
+
+        &[name="email"]:focus ~ [for="email"],
+        &[name="email"]:not(:placeholder-shown) ~ [for="email"] {
+          top: -3.35rem;
+        }
+
+        &[name="subject"]:focus ~ [for="subject"],
+        &[name="subject"]:not(:placeholder-shown) ~ [for="subject"] {
+          top: -3.35rem;
+        }
+      }
+
+      label {
+        font-size       : 1rem;
+        font-weight     : 500;
+        margin          : 0;
+        padding         : .0 .5rem;
+        font-family     : 'Roboto Mono';
+        text-transform  : uppercase;
+        position        : relative;
+        left            : 1rem;
+        letter-spacing  : .15rem;
+        color           : $primary-color;
+        transition      : .3s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        background-color: $body-background-color;
+        font-family     : 'Poppins';
+
+        &[for="fullname"] {
+          top: -2rem;
+        }
+
+        &[for="email"] {
+          top: -2rem;
+        }
+
+        &[for="subject"] {
+          top: -2rem;
+        }
+
+        &[for="message"] {
+          top: -9rem;
+        }
+      }
+
+      textarea {
+        width           : 100%;
+        height          : 9.5rem;
+        border          : 1px solid $gray-color;
+        border-radius   : .2rem;
+        outline         : none;
+        background-color: transparent;
+        padding         : 1rem 0 0 1rem;
+        margin          : 0;
+        font-family     : 'Roboto Mono';
+        resize          : none;
+        box-sizing      : border-box;
+        
+        &:focus {
+          color         : $gray-color;
+          padding-left  : 1rem;
+        }
+
+        &:not(:placeholder-shown) {
+          color         : $gray-color;
+          letter-spacing: .1rem;
+          padding-left  : 1rem;
+          font-size     : 1rem;
+          width         : 100%;
+          font-size     : 1rem;
+          font-family   : 'Roboto Mono';
+        }
+        
+        &:focus ~ [for="message"], 
+        &:not(:placeholder-shown):not(:focus) ~ [for="message"] {
+          top: -10.3rem;
+        }
+      }
+
+      button {
+        width           : 100%;
+        margin          : 0;
+        padding         : .9rem 0;
+        background-color: $primary-color;
+        border          : .15rem solid $primary-color;
+        border-radius   : .2rem;
+        font-size       : .9rem;
+        font-weight     : 700;
+        text-transform  : uppercase;
+        color           : $white-color;
+        transition      : .3s all linear;
+        cursor          : pointer;
+        letter-spacing  : .12rem;
+
+        &:hover {
+          background-color: rgba($primary-color, .7);
+          border          : .15rem solid rgba($primary-color, .2);
+        }
+      }
+    }
+  }
+}

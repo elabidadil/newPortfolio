@@ -1,0 +1,30 @@
+@use "../utilities/variables" as *;
+@use "../utilities/breakpoints" as *;
+@use "../utilities/placeholders" as *;
+
+.smallScreenButton {
+  padding         : .3rem 0;
+  border          : none;
+  border-radius   : .3rem;
+  background-color: $button-background-color;
+  font-family     : 'Poppins';
+  font-size       : 1.1rem;
+  font-weight     : 600;
+  text-transform  : uppercase;
+  transition      : .7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  letter-spacing  : .08rem;
+
+  @media (min-width: 500px) {
+    padding: 0;
+    height: 2.5rem;
+  }
+  
+  &:hover {
+    background-color: $primary-color !important;
+    cursor          : pointer;
+
+    > a {
+      color           : $white-color !important;
+    }
+  }
+}

@@ -1,0 +1,1866 @@
+.themeToggleButtonsIcons {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" -25, "opsz" 40;
+}
+
+.navbarhamburgerTopBarActive {
+  -webkit-transform: rotate(45deg) translate(10px, 12px);
+          transform: rotate(45deg) translate(10px, 12px);
+}
+
+.navbarHamburgerMiddleBarActive {
+  opacity: 0;
+}
+
+.navbarHamburgerBottomBarActive {
+  -webkit-transform: rotate(-45deg) translate(10px, -12px);
+          transform: rotate(-45deg) translate(10px, -12px);
+}
+
+.navbarMenuActive {
+  right: 0 !important;
+  z-index: 100 !important;
+}
+
+.whiteThemeBody {
+  background-color: #E4E4E4 !important;
+}
+
+.lightThemeNavbar {
+  background-color: rgba(228, 228, 228, 0.5) !important;
+}
+
+.lightHamburgerIcon {
+  background-color: #8c8c8c !important;
+}
+
+.lightNavbarMenu {
+  background-color: rgba(228, 228, 228, 0.5) !important;
+}
+
+.lightNavbarMenuLinks {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.lightGreetingAndSubtitle {
+  color: rgba(140, 140, 140, 0.7) !important;
+}
+
+.lightDeveloper {
+  color: #8c8c8c !important;
+}
+
+.lightPageButtons {
+  background-color: #C9C9C9 !important;
+  color: #8c8c8c !important;
+}
+
+.lightPageTitle {
+  background-color: #E4E4E4 !important;
+  color: #8c8c8c !important;
+}
+
+.lightPageTextContent {
+  color: #8c8c8c !important;
+}
+
+.lightSkillListName {
+  background-color: #C9C9C9 !important;
+  color: #8c8c8c !important;
+}
+
+.lightProjectTextContentTitle {
+  color: #5D5D5D !important;
+}
+
+.lightProjectTextContentParagraph {
+  color: #8c8c8c !important;
+}
+
+.lightFormLabels {
+  background-color: #E4E4E4 !important;
+}
+
+.lightHomePageMouseScroller {
+  background-color: #8c8c8c !important;
+}
+
+.lightHomePageGlass {
+  border-left: 1px solid rgba(93, 93, 93, 0.2) !important;
+}
+
+.lightFormInput {
+  border: 1px solid #8c8c8c !important;
+}
+
+.greetingAndNameArrow {
+  color: #8c8c8c !important;
+}
+
+.lightThemeToggleButton {
+  cursor: default !important;
+}
+
+.darkThemeToggleButton {
+  cursor: pointer !important;
+}
+
+/* Document
+ * ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+ * ========================================================================== */
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Edge, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0;
+}
+
+/**
+ * Remove the margin on nested lists in Edge 18- and IE.
+ */
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Correct the inheritance of border color in Firefox.
+ * 3. Show the overflow in Edge 18- and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; /* 1 */
+  color: inherit; /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 3 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge 18-, IE, and Safari.
+ */
+abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images within links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Tabular data
+ * ========================================================================== */
+/**
+ * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+ * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+ */
+table {
+  border-color: inherit; /* 1 */
+  text-indent: 0; /* 2 */
+}
+
+/* Forms
+ * ========================================================================== */
+/**
+ * Remove the margin on controls in Safari.
+ */
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
+ */
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style buttons in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Show the overflow in Edge 18- and IE.
+ */
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge 18- and IE.
+ * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+ */
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type=checkbox],
+[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+ */
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style upload buttons in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Remove the additional :invalid styles in Firefox.
+ */
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* Interactive
+ * ========================================================================== */
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge 18-, IE, and Safari.
+ */
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+
+.textContent, .skillsPage .pageTextContent, .aboutMePage .aboutMePageContent .pageTextContainer .pageTextContent {
+  font-size: 5.7vw;
+  text-align: justify;
+  color: #5D5D5D;
+  line-height: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+@media (min-width: 500px) {
+  .textContent, .skillsPage .pageTextContent, .aboutMePage .aboutMePageContent .pageTextContainer .pageTextContent {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    text-align: justify;
+  }
+}
+
+.pageTitle {
+  position: relative;
+  height: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  margin: 4rem 0 3rem;
+}
+.pageTitle > h2 {
+  color: #ababab;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 12vw;
+  background-color: #151515;
+  padding: 0.8rem 0.79rem;
+  border-radius: 0.3rem;
+  line-height: 2rem;
+}
+@media (min-width: 500px) {
+  .pageTitle > h2 {
+    font-size: 2.8rem;
+    padding: 1.2rem;
+  }
+}
+.pageTitle > span {
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 31vw;
+  font-weight: 700;
+  position: absolute;
+  z-index: -1;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #16A086;
+}
+@media (min-width: 500px) {
+  .pageTitle > span {
+    font-size: 9rem;
+  }
+}
+
+.smallScreenButton, .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button, .homePage .HomePageContent .textContainer .homePageButtons .contactButton, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton {
+  padding: 0.3rem 0;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #212121;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  letter-spacing: 0.08rem;
+}
+@media (min-width: 500px) {
+  .smallScreenButton, .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button, .homePage .HomePageContent .textContainer .homePageButtons .contactButton, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton {
+    padding: 0;
+    height: 2.5rem;
+  }
+}
+.smallScreenButton:hover, .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button:hover, .homePage .HomePageContent .textContainer .homePageButtons .contactButton:hover, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton:hover {
+  background-color: #16A086 !important;
+  cursor: pointer;
+}
+.smallScreenButton:hover > a, .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button:hover > a, .homePage .HomePageContent .textContainer .homePageButtons .contactButton:hover > a, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton:hover > a {
+  color: #FFFFFF !important;
+}
+
+.homePage {
+  height: 92vh;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 2.5vw dashed #16A086;
+}
+@media (min-width: 500px) {
+  .homePage {
+    height: 818px;
+    border: none;
+  }
+}
+@media (min-width: 800px) {
+  .homePage {
+    height: 823px;
+    position: relative;
+    top: -10.5rem;
+  }
+}
+.homePage .HomePageContent {
+  position: relative;
+  padding-top: 5rem;
+}
+@media (min-width: 800px) {
+  .homePage .HomePageContent {
+    padding-top: 12rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent {
+    padding-top: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.homePage .HomePageContent .textContainer {
+  height: 65vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer {
+    height: 25rem;
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 800px) {
+  .homePage .HomePageContent .textContainer {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .textContainer {
+    width: 34rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.homePage .HomePageContent .textContainer .greetingAndName {
+  font-size: 8vw;
+  font-weight: 500;
+  color: rgba(171, 171, 171, 0.7);
+  margin: 0;
+  text-align: center;
+  letter-spacing: normal;
+  font-family: "Roboto Mono";
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .greetingAndName {
+    font-size: 1.85rem;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .textContainer .greetingAndName {
+    text-align: left;
+  }
+}
+.homePage .HomePageContent .textContainer .greetingAndName i {
+  font-size: 1.35rem;
+  -webkit-transform: translateY(0.5rem) translateX(-0.6rem);
+          transform: translateY(0.5rem) translateX(-0.6rem);
+  color: #ababab;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .greetingAndName i {
+    font-size: 1.3rem;
+    -webkit-transform: translateY(0.6rem) translateX(-0.2rem);
+            transform: translateY(0.6rem) translateX(-0.2rem);
+  }
+}
+.homePage .HomePageContent .textContainer .greetingAndName span {
+  display: block;
+  color: #16A086;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 15.5vw;
+  letter-spacing: 0;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .greetingAndName span {
+    display: block;
+    font-size: 4.4rem;
+  }
+}
+.homePage .HomePageContent .textContainer .subtitle {
+  font-size: 6.5vw;
+  color: rgba(171, 171, 171, 0.7);
+  text-transform: lowercase;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  font-family: "Roboto Mono";
+  margin-top: 0.3rem;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .subtitle {
+    width: 28rem;
+    line-height: 3rem;
+    margin-top: 0.5rem;
+    font-size: 1.85rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .textContainer .subtitle {
+    text-align: left;
+  }
+}
+.homePage .HomePageContent .textContainer .subtitle > b {
+  color: #ababab;
+}
+.homePage .HomePageContent .textContainer .subtitle > b:before {
+  content: "<b>";
+  text-transform: lowercase;
+  color: #16A086;
+}
+.homePage .HomePageContent .textContainer .subtitle > b:after {
+  content: "</b>";
+  text-transform: lowercase;
+  color: #16A086;
+}
+.homePage .HomePageContent .textContainer .homePageButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .homePageButtons {
+    max-width: 25rem;
+    margin: auto;
+    margin-top: 1.7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .textContainer .homePageButtons {
+    margin-left: 0;
+  }
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle {
+  display: none;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .homePageButtons .themeToggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle .themeToggleButtonCover {
+  width: 40px;
+  aspect-ratio: 1;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0.3rem 0 0 0.3rem;
+  background-color: #16A086;
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle .themeToggleButtonCover:hover {
+  cursor: default;
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle > span {
+  width: 40px;
+  aspect-ratio: 1;
+  display: block;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #212121;
+  font-weight: 500;
+  -webkit-transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle span.lightThemeButton {
+  font-size: 1.5rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  cursor: pointer;
+}
+.homePage .HomePageContent .textContainer .homePageButtons .themeToggle span.darkThemeButton {
+  font-size: 1.3rem;
+  border-radius: 0.3rem 0 0 0.3rem;
+  cursor: default;
+}
+.homePage .HomePageContent .textContainer .homePageButtons .contactButton, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton {
+  width: 45%;
+}
+.homePage .HomePageContent .textContainer .homePageButtons .contactButton a, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton a {
+  color: #5D5D5D;
+  text-decoration: none;
+  -webkit-transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding: 0.6rem 0;
+  width: 100%;
+  display: block;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .textContainer .homePageButtons .contactButton, .homePage .HomePageContent .textContainer .homePageButtons .projectsButton {
+    width: 9rem;
+  }
+}
+.homePage .HomePageContent .homePageImageContainer {
+  height: 25vh;
+  position: relative;
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .homePageImageContainer {
+    height: 34vh;
+    width: 400px;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 800px) {
+  .homePage .HomePageContent .homePageImageContainer {
+    height: 28vh;
+    width: 705.59px;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .homePageImageContainer {
+    width: 26rem;
+    height: auto;
+    margin: 0;
+  }
+}
+.homePage .HomePageContent .homePageImageContainer .homePageGlass {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(171, 171, 171, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 400rem;
+  height: 400rem;
+  position: absolute;
+  z-index: 60;
+  -webkit-transform: rotate(23deg);
+          transform: rotate(23deg);
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageGlass {
+    display: block;
+    top: -30.2rem;
+    left: -30.2rem;
+    -webkit-box-shadow: inset -70rem -71rem 10rem -30rem rgba(255, 255, 255, 0.3), 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+            box-shadow: inset -70rem -71rem 10rem -30rem rgba(255, 255, 255, 0.3), 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+  }
+}
+@media (min-width: 800px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageGlass {
+    top: -24.1rem;
+    left: -24.1rem;
+    -webkit-box-shadow: inset -215rem -315rem 20rem -20rem rgba(255, 255, 255, 0.15) 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+            box-shadow: inset -215rem -315rem 20rem -20rem rgba(255, 255, 255, 0.15) 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageGlass {
+    -webkit-box-shadow: inset -220rem -290rem 20rem -20rem rgba(255, 255, 255, 0.15) 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+            box-shadow: inset -220rem -290rem 20rem -20rem rgba(255, 255, 255, 0.15) 1rem 0 2rem 0.1rem rgba(255, 255, 255, 0.2);
+    top: -33.6rem;
+    left: -33.6rem;
+  }
+}
+.homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer {
+  width: 100%;
+  height: 100%;
+}
+.homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .darkHomePageImage {
+  display: block;
+}
+.homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .lightHomePageImage {
+  display: none;
+}
+.homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .darkHomePageImage, .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .lightHomePageImage {
+  width: 122vw;
+  bottom: -35vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+@media (min-width: 500px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .darkHomePageImage, .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .lightHomePageImage {
+    width: 37.5rem;
+    top: 5rem;
+  }
+}
+@media (min-width: 800px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .darkHomePageImage, .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .lightHomePageImage {
+    top: 3rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .darkHomePageImage, .homePage .HomePageContent .homePageImageContainer .homePageImageTiltContainer .lightHomePageImage {
+    height: 100%;
+    top: 0;
+  }
+}
+.homePage .homePageMouse {
+  width: 28px;
+  height: 51px;
+  display: block;
+  position: relative;
+  bottom: 175px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 8rem;
+  border: 0.2rem solid #16A086;
+}
+@media (min-width: 500px) {
+  .homePage .homePageMouse {
+    bottom: 12.2rem;
+  }
+}
+@media (min-width: 800px) {
+  .homePage .homePageMouse {
+    bottom: 11rem;
+  }
+}
+@media (min-width: 1100px) {
+  .homePage .homePageMouse {
+    bottom: -5.5rem;
+  }
+}
+.homePage .homePageMouse .homePageMouseScroller {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #ababab;
+  border-radius: 100px;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation-name: mouseScrolling;
+          animation-name: mouseScrolling;
+  -webkit-animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+          animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes mouseScrolling {
+  0% {
+    top: 4px;
+  }
+  100% {
+    top: 26px;
+  }
+}
+
+@keyframes mouseScrolling {
+  0% {
+    top: 4px;
+  }
+  100% {
+    top: 26px;
+  }
+}
+@-webkit-keyframes stampLogoRotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes stampLogoRotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.aboutMePage {
+  padding: 4rem 0;
+  overflow: hidden;
+}
+.aboutMePage .pageTitle {
+  margin-top: 0;
+}
+.aboutMePage .aboutMePageContent {
+  position: relative;
+}
+.aboutMePage .aboutMePageContent .aboutMePageStampLogo {
+  display: block;
+  position: absolute;
+  width: 7rem;
+  opacity: 1;
+  z-index: 1;
+  bottom: 41rem;
+  left: 1rem;
+  -webkit-animation-name: stampLogoRotation;
+          animation-name: stampLogoRotation;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .aboutMePageStampLogo {
+    width: 9rem;
+    z-index: 1;
+    bottom: -1.7rem;
+    left: -1.7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 33rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.aboutMePage .aboutMePageContent .aboutMePageProfileImageContainer {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 500px) {
+  .aboutMePage .aboutMePageContent .aboutMePageProfileImageContainer {
+    width: 80%;
+    height: 19rem;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .aboutMePageProfileImageContainer {
+    width: 50%;
+    height: 33rem;
+    margin: 0;
+  }
+}
+.aboutMePage .aboutMePageContent .aboutMePageProfileImageContainer .aboutMePageProfileImage {
+  opacity: 0.8;
+  width: 105%;
+  position: absolute;
+  top: -1.7rem;
+  left: -0.5rem;
+}
+@media (min-width: 500px) {
+  .aboutMePage .aboutMePageContent .aboutMePageProfileImageContainer .aboutMePageProfileImage {
+    top: -5rem;
+    width: 100%;
+    left: 0;
+  }
+}
+@media (min-width: 500px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer {
+    width: 43.3%;
+    height: 33rem;
+  }
+}
+.aboutMePage .aboutMePageContent .pageTextContainer .pageTextContent {
+  margin-top: 1rem;
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .pageTextContent {
+    margin-top: -0.6rem;
+    line-height: 2.5rem;
+  }
+}
+.aboutMePage .aboutMePageContent .pageTextContainer .pageTextContent > span {
+  color: #16A086;
+  font-weight: 500;
+  font-family: "Roboto Mono";
+}
+.aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer a {
+  color: #5D5D5D;
+  text-decoration: none;
+  -webkit-transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.7s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding: 0.6rem 0;
+  width: 100%;
+  display: block;
+}
+@media (min-width: 500px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer {
+    width: 21.75rem;
+    height: 2.5rem;
+    padding: 0;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 600px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer {
+    width: 23rem;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer {
+    width: 26.5rem;
+    margin-inline: 0;
+    margin-top: 0.8rem;
+  }
+}
+.aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button {
+  width: 28vw;
+}
+@media (min-width: 500px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button {
+    width: 7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .aboutMePage .aboutMePageContent .pageTextContainer .aboutMePageButtonsContainer button {
+    width: 8rem;
+  }
+}
+
+.contactMePage {
+  height: 100vh;
+  overflow: hidden;
+}
+@media (min-width: 1100px) {
+  .contactMePage {
+    height: auto;
+    padding-bottom: 10rem;
+  }
+}
+.contactMePage .container form {
+  margin: 0 auto;
+  max-width: 35rem;
+}
+.contactMePage .container form input {
+  width: 100%;
+  height: 45px;
+  padding: 0.8rem 0;
+  border: 1px solid #ababab;
+  border-radius: 0.2rem;
+  outline: none;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Mono";
+}
+.contactMePage .container form input:focus {
+  color: #ababab;
+  padding-left: 1rem;
+}
+.contactMePage .container form input:not(:-moz-placeholder-shown) {
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  width: 100%;
+  color: #ababab;
+  font-size: 1rem;
+}
+.contactMePage .container form input:not(:-ms-input-placeholder) {
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  width: 100%;
+  color: #ababab;
+  font-size: 1rem;
+}
+.contactMePage .container form input:not(:placeholder-shown) {
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  width: 100%;
+  color: #ababab;
+  font-size: 1rem;
+}
+.contactMePage .container form input[name=fullname]:not(:-moz-placeholder-shown) ~ [for=fullname] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=fullname]:not(:-ms-input-placeholder) ~ [for=fullname] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=fullname]:focus ~ [for=fullname], .contactMePage .container form input[name=fullname]:not(:placeholder-shown) ~ [for=fullname] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=email]:not(:-moz-placeholder-shown) ~ [for=email] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=email]:not(:-ms-input-placeholder) ~ [for=email] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=email]:focus ~ [for=email], .contactMePage .container form input[name=email]:not(:placeholder-shown) ~ [for=email] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=subject]:not(:-moz-placeholder-shown) ~ [for=subject] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=subject]:not(:-ms-input-placeholder) ~ [for=subject] {
+  top: -3.35rem;
+}
+.contactMePage .container form input[name=subject]:focus ~ [for=subject], .contactMePage .container form input[name=subject]:not(:placeholder-shown) ~ [for=subject] {
+  top: -3.35rem;
+}
+.contactMePage .container form label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 0.5rem;
+  font-family: "Roboto Mono";
+  text-transform: uppercase;
+  position: relative;
+  left: 1rem;
+  letter-spacing: 0.15rem;
+  color: #16A086;
+  -webkit-transition: 0.3s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.3s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background-color: #151515;
+  font-family: "Poppins";
+}
+.contactMePage .container form label[for=fullname] {
+  top: -2rem;
+}
+.contactMePage .container form label[for=email] {
+  top: -2rem;
+}
+.contactMePage .container form label[for=subject] {
+  top: -2rem;
+}
+.contactMePage .container form label[for=message] {
+  top: -9rem;
+}
+.contactMePage .container form textarea {
+  width: 100%;
+  height: 9.5rem;
+  border: 1px solid #ababab;
+  border-radius: 0.2rem;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem 0 0 1rem;
+  margin: 0;
+  font-family: "Roboto Mono";
+  resize: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.contactMePage .container form textarea:focus {
+  color: #ababab;
+  padding-left: 1rem;
+}
+.contactMePage .container form textarea:not(:-moz-placeholder-shown) {
+  color: #ababab;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Roboto Mono";
+}
+.contactMePage .container form textarea:not(:-ms-input-placeholder) {
+  color: #ababab;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Roboto Mono";
+}
+.contactMePage .container form textarea:not(:placeholder-shown) {
+  color: #ababab;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Roboto Mono";
+}
+.contactMePage .container form textarea:not(:-moz-placeholder-shown):not(:focus) ~ [for=message] {
+  top: -10.3rem;
+}
+.contactMePage .container form textarea:not(:-ms-input-placeholder):not(:focus) ~ [for=message] {
+  top: -10.3rem;
+}
+.contactMePage .container form textarea:focus ~ [for=message], .contactMePage .container form textarea:not(:placeholder-shown):not(:focus) ~ [for=message] {
+  top: -10.3rem;
+}
+.contactMePage .container form button {
+  width: 100%;
+  margin: 0;
+  padding: 0.9rem 0;
+  background-color: #16A086;
+  border: 0.15rem solid #16A086;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+  cursor: pointer;
+  letter-spacing: 0.12rem;
+}
+.contactMePage .container form button:hover {
+  background-color: rgba(22, 160, 134, 0.7);
+  border: 0.15rem solid rgba(22, 160, 134, 0.2);
+}
+
+.skillsPage {
+  overflow: hidden;
+}
+@media (min-width: 500px) {
+  .skillsPage .pageTextContent {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+.skillsPage .pageTextContent > span {
+  color: #16A086;
+  font-family: "Roboto Mono";
+}
+.skillsPage .skillsContainer {
+  margin-top: 2rem;
+}
+@media (min-width: 500px) {
+  .skillsPage .skillsContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    max-width: 480px;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 950px) {
+  .skillsPage .skillsContainer {
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+  }
+}
+.skillsPage .skillsContainer .theSkill {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.skillsPage .skillsContainer .theSkill:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 500px) {
+  .skillsPage .skillsContainer .theSkill {
+    width: 12rem;
+    margin-bottom: 0;
+  }
+}
+.skillsPage .skillsContainer .theSkill h3 {
+  text-transform: uppercase;
+  color: #16A086;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 5vw;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 0.8rem 0.5rem;
+  position: relative;
+  font-family: "Roboto Mono";
+}
+@media (min-width: 500px) {
+  .skillsPage .skillsContainer .theSkill h3 {
+    font-size: 1.2rem;
+  }
+}
+.skillsPage .skillsContainer .theSkill h3::after {
+  content: "";
+  width: 2px;
+  height: 15px;
+  position: absolute;
+  bottom: -45%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #16A086;
+}
+.skillsPage .skillsContainer .theSkill .skillsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 0.1rem;
+}
+.skillsPage .skillsContainer .theSkill .skillsList > span {
+  font-family: "Roboto Mono";
+  margin: auto;
+  padding: 0.6rem 0;
+  border-radius: 0.3rem;
+  font-size: 4.8vw;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 42vw;
+  color: #5D5D5D;
+  background-color: #212121;
+  position: relative;
+  letter-spacing: 0.1rem;
+}
+.skillsPage .skillsContainer .theSkill .skillsList > span::-moz-selection {
+  color: #212121;
+}
+.skillsPage .skillsContainer .theSkill .skillsList > span::selection {
+  color: #212121;
+}
+@media (min-width: 500px) {
+  .skillsPage .skillsContainer .theSkill .skillsList > span {
+    font-size: 1rem;
+    width: 10rem;
+  }
+}
+.skillsPage .skillsContainer .theSkill .skillsList > span:first-of-type::before {
+  content: "";
+  width: 117%;
+  height: 50%;
+  position: absolute;
+  top: -0.8rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 2px solid #16A086;
+  border-top: 2px solid #16A086;
+  border-bottom: 2px solid transparent;
+  border-radius: 0.3rem;
+}
+.skillsPage .skillsContainer .theSkill .skillsList > span:NOT(:first-of-type, :last-of-type) {
+  margin: 0.7rem auto;
+}
+
+.projectsPage {
+  overflow: hidden;
+}
+.projectsPage .projectsList {
+  display: -ms-grid;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 380px));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (min-width: 1000px) {
+  .projectsPage .projectsList {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    row-gap: 5rem;
+  }
+}
+.projectsPage .projectsList .theProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.2rem;
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject {
+    max-width: 30rem;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 900px) {
+  .projectsPage .projectsList .theProject {
+    width: 100%;
+    max-width: 60rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.projectsPage .projectsList .theProject .projectImageContainer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject .projectImageContainer {
+    margin-bottom: 1rem;
+  }
+}
+.projectsPage .projectsList .theProject .projectImageContainer:hover > .projectLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.projectsPage .projectsList .theProject .projectImageContainer .projectLinks {
+  width: 100%;
+  height: 100%;
+  background-color: #16A086;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: none;
+  gap: 3.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.3rem;
+}
+.projectsPage .projectsList .theProject .projectImageContainer .projectLinks a {
+  color: #FFFFFF;
+  cursor: pointer;
+  -webkit-transition: 0.3s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.3s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.projectsPage .projectsList .theProject .projectImageContainer .projectLinks a > span {
+  font-size: 5rem;
+}
+.projectsPage .projectsList .theProject .projectImageContainer .projectLinks a:last-of-type > span {
+  font-size: 5.4rem;
+}
+.projectsPage .projectsList .theProject .projectImageContainer img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.projectsPage .projectsList .theProject .projectTextContent {
+  margin-top: 0.5rem;
+}
+@media (min-width: 900px) {
+  .projectsPage .projectsList .theProject .projectTextContent {
+    margin-top: 0;
+  }
+}
+.projectsPage .projectsList .theProject .projectTextContent span {
+  color: #16A086;
+  font-size: 5vw;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Mono";
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject .projectTextContent span {
+    font-size: 1.1rem;
+  }
+}
+.projectsPage .projectsList .theProject .projectTextContent span > i {
+  font-size: 4vw;
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject .projectTextContent span > i {
+    font-size: 1rem;
+  }
+}
+.projectsPage .projectsList .theProject .projectTextContent h4 {
+  letter-spacing: 0.07rem;
+  color: #ababab;
+  font-size: 7.5vw;
+  font-weight: 600;
+  margin-top: 0.6rem;
+  margin-bottom: 0.1rem;
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject .projectTextContent h4 {
+    font-size: 2rem;
+  }
+}
+.projectsPage .projectsList .theProject .projectTextContent p {
+  color: #5D5D5D;
+  line-height: 2rem;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 4.7vw;
+}
+@media (min-width: 500px) {
+  .projectsPage .projectsList .theProject .projectTextContent p {
+    font-size: 1.2rem;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #16A086;
+}
+footer p {
+  color: #FFFFFF;
+  font-size: 4vw;
+  letter-spacing: 0.1rem;
+  padding: 2rem 0;
+}
+@media (min-width: 500px) {
+  footer p {
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+  footer p i {
+    font-size: 0.75rem;
+  }
+}
+
+.smScreenNavbar {
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(21, 21, 21, 0.5);
+  z-index: 5;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+@media (min-width: 800px) {
+  .smScreenNavbar {
+    display: none;
+  }
+}
+.smScreenNavbar .smScreenNavbarLogo {
+  width: 3rem;
+}
+.smScreenNavbar .navbarHamburgerIcon:hover {
+  cursor: pointer;
+}
+.smScreenNavbar .navbarHamburgerIcon .hamburgerIconTopBar, .smScreenNavbar .navbarHamburgerIcon .hamburgerIconMiddleBar, .smScreenNavbar .navbarHamburgerIcon .hamburgerIconBottomBar {
+  -webkit-transition: 0.4s all cubic-bezier(0, 0.04, 0.64, 1.52);
+  transition: 0.4s all cubic-bezier(0, 0.04, 0.64, 1.52);
+}
+.smScreenNavbar .navbarHamburgerIcon span {
+  width: 3rem;
+  height: 0.3rem;
+  background-color: #ababab;
+  display: block;
+  border-radius: 6rem;
+}
+.smScreenNavbar .navbarHamburgerIcon span:NOT(:first-of-type, :last-of-type) {
+  margin: 0.7rem 0;
+}
+
+.lgScreenLogo {
+  display: none;
+}
+@media (min-width: 800px) {
+  .lgScreenLogo {
+    width: 3rem;
+    margin: 2.5rem auto 0.5rem;
+    display: block;
+  }
+}
+
+.navbarMenu {
+  background-color: rgba(21, 21, 21, 0.5);
+  -webkit-backdrop-filter: blur(10px) grayscale(10%);
+          backdrop-filter: blur(10px) grayscale(10%);
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 86.42px);
+  right: -100%;
+  top: 86.42px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  z-index: 52;
+  -webkit-transition: 0.7s all cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.7s all cubic-bezier(0.77, 0, 0.175, 1);
+}
+@media (min-width: 800px) {
+  .navbarMenu {
+    position: sticky;
+    top: 0;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.navbarMenu ul {
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem 0;
+}
+@media (min-width: 800px) {
+  .navbarMenu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+}
+.navbarMenu ul li {
+  margin: 2rem 0;
+}
+@media (min-width: 500px) {
+  .navbarMenu ul li {
+    margin: 2.5rem 0;
+  }
+}
+@media (min-width: 800px) {
+  .navbarMenu ul li {
+    margin: 0;
+  }
+}
+.navbarMenu ul li a {
+  font-size: 6vw;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-family: "Roboto Mono";
+  -webkit-transition: 0.5s color cubic-bezier(0, 0.04, 0.64, 1.52);
+  transition: 0.5s color cubic-bezier(0, 0.04, 0.64, 1.52);
+}
+@media (min-width: 500px) {
+  .navbarMenu ul li a {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 800px) {
+  .navbarMenu ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #5D5D5D;
+    letter-spacing: 0.03rem;
+  }
+}
+.navbarMenu ul li a:hover {
+  color: #16A086 !important;
+}
+
+*::before, *, *::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #16A086;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(22, 160, 134, 0.8);
+}
+
+::-moz-selection {
+  background-color: transparent;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+.container {
+  width: 90%;
+  max-width: 975px;
+  margin: auto;
+}
+
+body {
+  font-family: "Poppins";
+  width: 100%;
+  background-color: #151515;
+  cursor: default;
+  position: relative;
+}
+body .mouseCircleEffect {
+  width: 0.8rem;
+  aspect-ratio: 1;
+  background-color: #16A086;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 105;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+  pointer-events: none;
+  display: none;
+}
+@media (min-width: 500px) {
+  body .mouseCircleEffect {
+    display: block;
+  }
+}

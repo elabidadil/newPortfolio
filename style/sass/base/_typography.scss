@@ -1,0 +1,58 @@
+@use "../utilities/variables" as *;
+@use "../utilities/breakpoints" as *;
+@use "../utilities/placeholders" as *;
+
+.textContent {
+  font-size     : 5.7vw;
+  text-align    : justify;
+  color         : $text-content-color;
+  line-height   : 2.8rem;
+  font-weight   : 500;
+  letter-spacing: .1rem;
+
+  @media (min-width: 500px) {
+    font-size  : 1.2rem;
+    line-height: 2.3rem;
+    text-align : justify;
+  }
+}
+
+.pageTitle {
+  position   : relative;
+  height     : 8rem;
+  display    : grid;
+  place-items: center;
+  width      : 100%;
+  margin     : 4rem 0 3rem;
+
+  > h2 {
+    color           : $gray-color;
+    text-transform  : uppercase;
+    letter-spacing  : .1rem;
+    font-size       : 12vw;
+    background-color: $body-background-color;
+    padding         : .8rem .79rem;
+    border-radius   : .3rem;
+    line-height     : 2rem;
+
+    @media (min-width: 500px) {
+      font-size: 2.8rem;
+      padding  : 1.2rem;
+    }
+  }
+  
+  > span {
+    color                    : transparent;
+    text-transform           : uppercase;
+    font-size                : 31vw;
+    font-weight              : 700;
+    position                 : absolute;
+    z-index                  : -1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $primary-color;
+
+    @media (min-width: 500px) {
+      font-size: 9rem;
+    }
+  }
+}

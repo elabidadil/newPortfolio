@@ -1,0 +1,111 @@
+@use "variables" as *;
+@use "breakpoints" as *;
+
+.themeToggleButtonsIcons {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' -25,
+  'opsz' 40
+}
+
+.navbarhamburgerTopBarActive {
+  transform: rotate(45deg) translate(10px, 12px);
+}
+
+.navbarHamburgerMiddleBarActive {
+  opacity: 0;
+}
+
+.navbarHamburgerBottomBarActive {
+  transform: rotate(-45deg) translate(10px, -12px);
+}
+
+.navbarMenuActive {
+  right  : 0 !important;
+  z-index: 100 !important;
+}
+
+// White Theme Classes
+.whiteThemeBody {
+  background-color: $light-body-background-color !important;
+}
+
+.lightThemeNavbar {
+  background-color: rgba($light-body-background-color, .5) !important;
+}
+
+.lightHamburgerIcon {
+  background-color: $light-text-content-color !important;
+}
+
+.lightNavbarMenu {
+  background-color: rgba($light-body-background-color, .5) !important;
+}
+
+.lightNavbarMenuLinks {
+  color: rgba($black-color, .5) !important;
+}
+
+.lightGreetingAndSubtitle {
+  color: rgba($light-text-content-color, .7) !important;
+}
+
+.lightDeveloper {
+  color: $light-text-content-color !important;
+}
+
+.lightPageButtons {
+  background-color: $light-button-background-color !important;
+  color: $light-text-content-color !important;
+}
+
+.lightPageTitle {
+  background-color: $light-body-background-color !important;
+  color           : $light-text-content-color !important;
+}
+
+.lightPageTextContent {
+  color: $light-text-content-color !important;
+}
+
+.lightSkillListName {
+  background-color: $light-button-background-color !important;
+  color           : $light-text-content-color !important;
+}
+
+.lightProjectTextContentTitle {
+  color: $light-active-color !important;
+}
+
+.lightProjectTextContentParagraph {
+  color: $light-text-content-color !important;
+}
+
+.lightFormLabels {
+  background-color: $light-body-background-color !important;
+}
+
+.lightHomePageMouseScroller {
+  background-color: $light-text-content-color !important;
+}
+
+.lightHomePageGlass {
+  border-left: 1px solid rgba($light-active-color, .2) !important;
+}
+
+.lightFormInput {
+  border: 1px solid $light-title-color !important;
+}
+
+.greetingAndNameArrow {
+  color: $light-text-content-color !important;
+}
+
+.lightThemeToggleButton {
+  cursor: default !important;
+}
+
+.darkThemeToggleButton {
+  cursor: pointer !important;
+}
